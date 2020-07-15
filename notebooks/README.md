@@ -5,11 +5,25 @@ All data collected was done so in accordance with Twitter community guidelines. 
 ## Search Terms
 
 * **Time-frame:** Jan. 1, 2020 - Sept. 30, 2020
-* **Geo:** Canada with province-by-province breakdown
+* **Geo:** Canada, with province-by-province breakdown
 * **Keywords:**
-  * kw 1
-  * kw 2
-  * etc...
+  * 'back to school'
+  * 'school reopening'
+  * 'child care'
+* **Mentions (Education Ministers):**
+  * David Eggen, [@davideggenAB](https://twitter.com/davideggenAB) (AB)
+  * Rob Fleming, [@Rob_Fleming](https://twitter.com/Rob_Fleming)(BC)
+  * Kelvin Goertzen, [@mingoertzen](https://twitter.com/mingoertzen) (MB)
+  * Dominic Cardy, [@DominicCardy](https://twitter.com/DominicCardy) (NB)
+  * Brian Warr, [@BrianWarr709](https://twitter.com/BrianWarr709) (NL)
+  * R.J. Simpson, [@RJSimpson_NWT](https://twitter.com/RJSimpson_NWT) (NT)
+  * Zach Chruchill, [@zachchurchill](https://twitter.com/zachchurchill) (NS)
+  * David Joanasie *TODO* (NU)
+  * Stephen Lecce, [@Sflecce](https://twitter.com/Sflecce) (ON)
+  * Brad Trivers, [@bradtrivers](https://twitter.com/bradtrivers) (PE)
+  * Jean-François Roberge, [@jfrobergeQc](https://twitter.com/jfrobergeQc) (QC)
+  * Gordon Wyant, [@GordWyant](https://twitter.com/GordWyant) (SK)
+  * Tracy-Anne McPhee, [@TracyMcPheeRS](https://twitter.com/TracyMcPheeRS) (YT)
 
 ## Data Pipeline
 
