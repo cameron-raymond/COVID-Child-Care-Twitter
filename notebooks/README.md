@@ -1,5 +1,7 @@
 # Notebooks Directory
 
+**Purpose:** Collect all relevant Tweet's pertaining to the reopening of schools in the COVID-19 pandemic between Jan. 1, 2020 and Sept. 15, 2020.
+
 All data collected was done so in accordance with Twitter community guidelines. This project makes use of Twitter's [premium search API](https://developer.twitter.com/en/docs/tweets/search/overview/premium), which allows for access to Twitter's full archive of Tweets dating back to 2006. Below is a list of the filter's used to obtain the dataset. For a full list of operators available for this API see [here](https://developer.twitter.com/en/docs/tweets/search/overview/premium#AvailableOperators).
 
 ## Search Terms
@@ -27,6 +29,13 @@ All data collected was done so in accordance with Twitter community guidelines. 
 
 ## Data Pipeline
 
-1. lorem
-2. ipsum
-   1. Sub bullet?
+1. Connect to Twitter's Search Tweets API, to the `full archive` endpoint
+2. Go province by province<sup>1</sup> and:
+    1. Collect all tweets that mention that an education minister
+    2. Collect all tweets that contain a dedicated list of keywords/hashtags
+3. Store collection of tweets in Pandas dataframe, and only keep relevant features (data, geo-code, text, author, *etc.*)
+4. Add an extra column that is the cleaned tweet text.
+5. Save dataframe to CSV
+6. Solve the pandemic 🎊
+
+<sup>1</sup> For more information on what tweets are geo-coded, see [Twitter's geo-filtering guide](https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location)
