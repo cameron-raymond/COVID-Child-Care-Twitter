@@ -10,6 +10,7 @@ jupyter = "*"
 pandas = "*"
 numpy = "*"
 matplotlib = "*"
+searchtweets = "*"
 
 [requires]
 python_version = "3.7"
