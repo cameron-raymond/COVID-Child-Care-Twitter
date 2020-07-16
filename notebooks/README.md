@@ -6,7 +6,7 @@ All data collected was done so in accordance with Twitter community guidelines. 
 
 ## Search Terms
 
-* **Time-frame:** Jan. 1, 2020 - Sept. 30, 2020
+* **Time-frame:** Jan. 1, 2020 - Sept. 15, 2020
 * **Geo:** Canada, with province-by-province breakdown
 * **Keywords:**
   * 'back to school'
