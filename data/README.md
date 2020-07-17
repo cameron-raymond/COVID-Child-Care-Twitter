@@ -4,4 +4,9 @@ The data directory stores the raw and processed CSVs scraped from Twitter. For m
 
 ## Data Structure
 
+* `/data/raw_data`: A list of JSON objects given directly by the historical search API (list of Tweet objects)
+* `/data/processed_data`: Stored dataframes containing cleaned data
+
+### Cleaned Data
+
 *TODO:* Add table.
