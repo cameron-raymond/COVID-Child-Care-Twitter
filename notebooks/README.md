@@ -12,7 +12,7 @@ All data collected was done so in accordance with Twitter community guidelines. 
   * 'back to school'
   * 'school reopening'
   * 'child care'
-* **Mentions<sub>1</sub>:**
+* **Mentions<sup>1</sup>:**
   * Premiers
     * Jason Kenny, [@jkenney](https://twitter.com/jkenney) (AB)
     * John Horgan, [@jjhorgan](https://twitter.com/jjhorgan) (BC)
@@ -53,5 +53,8 @@ All data collected was done so in accordance with Twitter community guidelines. 
 5. Save dataframe to CSV
 6. Solve the pandemic 🎊
 
-<sub>1</sub> Mentions aren't necessary for API calls since we only want mentions when it's about COVID/back to school. This list is therefore useful for post-collection analysis.
+<sup>1</sup> Mentions aren't necessary for API calls since we only want mentions
+when it's about COVID/back to school. This list is therefore useful for 
+post-collection analysis.
+
 <sup>2</sup> For more information on what tweets are geo-coded, see [Twitter's geo-filtering guide](https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location)
