@@ -10,10 +10,10 @@ All data collected was done so in accordance with Twitter community guidelines. 
 * **Geo:** Canada, with province-by-province breakdown
 * **Keywords:**
   * 'back to school'
-  * child care and covid
-  * (school or classroom or childcare) and (covid(-19) or coronavirus or risk or (re)open(ing) or safe(ty))
+  * child care and covid(-19)
+  * (school or classroom or childcare or schoolboard) and (covid(-19) or coronavirus or risk or (re)open(ing) or safe(ty))
   * school and recover ?
-  * (child or kid) and (work(ing) or (online and learning) or (distance and learning))
+  * (child or kid) and (work(ing) or ((online or distance) and learning))
   * parent and (homeschool or (online and learning) or teacher)
 * **Mentions<sup>1</sup>:**
   * Premiers
@@ -56,8 +56,6 @@ All data collected was done so in accordance with Twitter community guidelines. 
 5. Save dataframe to CSV
 6. Solve the pandemic 🎊
 
-<sup>1</sup> Mentions aren't necessary for API calls since we only want mentions
-when it's about COVID/back to school. This list is therefore useful for 
-post-collection analysis.
+<sup>1</sup> Tweets that mention a premier should also contain the keywords (covid and (school or childcare))
 
 <sup>2</sup> For more information on what tweets are geo-coded, see [Twitter's geo-filtering guide](https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location)
