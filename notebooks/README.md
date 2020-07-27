@@ -13,7 +13,7 @@ All data collected was done so in accordance with Twitter community guidelines. 
   * child care and covid
   * (school or classroom or childcare) and (covid(-19) or coronavirus or risk or (re)open(ing) or safe(ty))
   * school and recover ?
-  * (child or kid) and (work or working or (online and learning) or (distance and learning))
+  * (child or kid) and (work(ing) or (online and learning) or (distance and learning))
   * parent and (homeschool or (online and learning) or teacher)
 * **Mentions<sup>1</sup>:**
   * Premiers
