@@ -10,8 +10,11 @@ All data collected was done so in accordance with Twitter community guidelines. 
 * **Geo:** Canada, with province-by-province breakdown
 * **Keywords:**
   * 'back to school'
-  * 'school reopening'
-  * 'child care'
+  * child care + covid
+  * (school | classroom | childcare) + (covid(-19) | coronavirus | risk | (re)open(ing) | safe(ty))
+  * school + recover ?
+  * (child | kid) + (work | working | (online + learning) | (distance + learning))
+  * parent + (homeschool | (online + learning) | teacher)
 * **Mentions<sup>1</sup>:**
   * Premiers
     * Jason Kenny, [@jkenney](https://twitter.com/jkenney) (AB)
