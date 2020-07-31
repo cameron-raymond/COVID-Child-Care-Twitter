@@ -8,6 +8,9 @@ All data collected was done so in accordance with Twitter community guidelines. 
 
 * **Time-frame:** Jan. 1, 2020 - Sept. 15, 2020
 * **Geo:** Canada, with province-by-province breakdown
+* **Hashtags:**
+  * \#safeseptember
+  * \#backtoschool
 * **Keywords:**
   * 'back to school'
   * child care and covid(-19)
