@@ -10,6 +10,7 @@ All data collected was done so in accordance with Twitter community guidelines. 
 * **Geo:** Canada, with province-by-province breakdown
 * **Hashtags:**
   * \#safeseptember
+  * \#unsafeseptember
   * \#backtoschool
 * **Keywords:**
   * 'back to school'
