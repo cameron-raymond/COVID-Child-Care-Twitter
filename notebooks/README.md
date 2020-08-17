@@ -12,6 +12,7 @@ All data collected was done so in accordance with Twitter community guidelines. 
   * \#safeseptember
   * \#unsafeseptember
   * \#backtoschool
+  * \#BackToSchool2020
 * **Keywords:**
   * 'back to school'
   * child care and covid(-19)
