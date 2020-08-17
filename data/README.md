@@ -9,4 +9,6 @@ The data directory stores the raw and processed CSVs scraped from Twitter. For m
 
 ### Cleaned Data
 
-*TODO:* Add table.
+| id             | created_at      | screen_name       | source            | clean_text              | is_retweet      | favorite_count | retweet_count  | hashtags     | urls         | mentions     | city         | province     | longitude        | latitude         |
+|----------------|-----------------|-------------------|-------------------|-------------------------|-----------------|----------------|----------------|--------------|--------------|--------------|--------------|--------------|------------------|------------------|
+| int (non-null) | date (non-null) | string (non-null) | string (non-null) | list[string] (non-null) | bool (non-null) | int (non-null) | int (non-null) | list[string] | list[string] | list[string] | list[string] | list[string] | float (non-null) | float (non-null) |

@@ -14,12 +14,10 @@ All data collected was done so in accordance with Twitter community guidelines. 
   * \#backtoschool
   * \#BackToSchool2020
 * **Keywords:**
-  * 'back to school'
-  * child care and covid(-19)
-  * (school or classroom or childcare or schoolboard) and (covid(-19) or coronavirus or risk or (re)open(ing) or safe(ty))
-  * school and recover ?
-  * (child or kid) and (work(ing) or ((online or distance) and learning))
-  * parent and (homeschool or (online and learning) or teacher)
+  * For each pillar, one term must be satisfied. All pillars must be satisfied.
+  1. COVID: covid(-19), coronavirus, pandemic, lockdown, closure, virus.
+  2. School Reopening: (pre)school(s), daycare, class(room), risk, (re)open, return, safe(ty)(ly),online/distance learning, (day)(child)care
+  3. Children/Parental Anxiety: child(ren), toddler, kid, parent, family
 * **Mentions<sup>1</sup>:**
   * Premiers
     * Jason Kenny, [@jkenney](https://twitter.com/jkenney) (AB)
@@ -53,14 +51,13 @@ All data collected was done so in accordance with Twitter community guidelines. 
 ## Data Pipeline
 
 1. Connect to Twitter's Search Tweets API, to the `full archive` endpoint
-2. Go province by province<sup>2</sup> and:
-    1. Collect all tweets that mention that an education minister
-    2. Collect all tweets that contain a dedicated list of keywords/hashtags
+2. Collect all tweets that are: from Canadians<sup>2</sup> and satisfy one of the hashtag, keyword or mention rules.
 3. Store collection of tweets in Pandas dataframe, and only keep relevant features (data, geo-code, text, author, *etc.*)
 4. Add an extra column that is the cleaned tweet text.
+   1. Add other derived columns (is_retweet, city/province, *etc.*)
 5. Save dataframe to CSV
 6. Solve the pandemic 🎊
 
-<sup>1</sup> Tweets that mention a premier should also contain the keywords (covid and (school or childcare))
+<sup>1</sup> Tweets that mention a premier should also contain the keywords ((covid OR covid-19) (school OR childcare OR daycare))
 
 <sup>2</sup> For more information on what tweets are geo-coded, see [Twitter's geo-filtering guide](https://developer.twitter.com/en/docs/tutorials/filtering-tweets-by-location)
