@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "CSVs"
-    ]
+    ],
+    "python.formatting.provider": "black"
 }

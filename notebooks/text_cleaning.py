@@ -2,6 +2,7 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer 
 from nltk.corpus import wordnet
 from nltk.corpus import stopwords
+import unidecode
 import nltk
 import re
 
@@ -32,6 +33,7 @@ def clean_text(text):
     text = text.lower()
     # Remove urls
     text = re.sub('http[s]?://\S+', '', text)
+    text = unidecode.unidecode(text)
     # remove emojis
     text = emoji_pattern.sub(r'', text)
     token_words = word_tokenize(text)
@@ -47,4 +49,4 @@ def clean_text(text):
 
        
 if __name__ == "__main__":
-    print(clean_text("He was running and eating at same time. He has bad habit of swimming after playing long hours in the Sun."))
+    print(clean_text("He was running and eating in Québec at same time. He has bad habit of swimming after playing long hours in the Sun."))
