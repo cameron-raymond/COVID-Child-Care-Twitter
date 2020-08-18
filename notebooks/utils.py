@@ -19,7 +19,7 @@ DTYPE = {
     "latitude": "float",
 }
 
-PROVINCES = ["Alberta",
+PROVINCES = set(["Alberta",
             "British Columbia",
             "Manitoba",
             "New Brunswick",
@@ -31,6 +31,6 @@ PROVINCES = ["Alberta",
             "Prince Edward Island",
             "Quebec",
             "Saskatchewan",
-            "Yukon"]
+            "Yukon"])
 
 PARSE_DATES = ["created_at"]
