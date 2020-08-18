@@ -12,6 +12,8 @@ numpy = "*"
 matplotlib = "*"
 searchtweets = "*"
 nltk = "*"
+plotly = "*"
+unidecode = "*"
 
 [requires]
 python_version = "3.7"
