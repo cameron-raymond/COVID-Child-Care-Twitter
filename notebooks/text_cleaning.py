@@ -33,14 +33,16 @@ def clean_text(text):
     text = text.lower()
     # Remove urls
     text = re.sub('http[s]?://\S+', '', text)
+
     text = unidecode.unidecode(text)
+    text = re.sub("[+-/]", ' ', text)
     # remove emojis
     text = emoji_pattern.sub(r'', text)
     token_words = word_tokenize(text)
     pos_tags = nltk.pos_tag(token_words)
     stem_text=[]
     for token,pos in pos_tags:
-        token = re.sub("[>@,\.!?'…]", '', token)
+        token = re.sub("[>@,\.!?'()…]", '', token)
         if token not in stopwords and len(token) > 3:
             pos_tag = get_wordnet_pos(pos)
             token = lemma.lemmatize(token,pos=pos_tag) if pos_tag else token
