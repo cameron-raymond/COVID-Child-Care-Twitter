@@ -15,9 +15,9 @@ All data collected was done so in accordance with Twitter community guidelines. 
   * \#BackToSchool2020
 * **Keywords:**
   * For each pillar, one term must be satisfied. All pillars must be satisfied.
-  1. COVID: covid(-19), coronavirus, pandemic, lockdown, closure, virus.
-  2. School Reopening: (pre)school(s), daycare, class(room), risk, (re)open, return, safe(ty)(ly),online/distance learning, (day)(child)care
-  3. Children/Parental Anxiety: child(ren), toddler, kid, parent, family
+  1. Elements of COVID: covid(-19), coronavirus, virus, pandemic, (lock)(shut)down, closure(s), (re)open, risk, safe(ty)(ly).
+  2. Elements of School and Childcare: (pre)school(s), daycare, class(room)(s),(online)(distance) learning, (day)(child)care
+  3. Elements of Children/Parental Anxiety: child(ren), toddler(s), kid(s), parent(s), mom(s), dad(s), parent(s)
 * **Mentions<sup>1</sup>:**
   * Premiers
     * Jason Kenny, [@jkenney](https://twitter.com/jkenney) (AB)
