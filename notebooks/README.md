@@ -11,13 +11,52 @@ All data collected was done so in accordance with Twitter community guidelines. 
 * **Hashtags:**
   * \#safeseptember
   * \#unsafeseptember
-  * \#backtoschool
-  * \#BackToSchool2020
+  * \#safeseptember
+  * \#safeseptemberAB
+  * \#safeseptemberBC
+  * \#safeseptemberMB
+  * \#safeseptemberNB
+  * \#safeseptemberNL
+  * \#safeseptemberNS
+  * \#safeseptemberON
+  * \#safeseptemberPEI
+  * \#safeseptemberQC
+  * \#safeseptemberSK
+  * \#safeseptemberYT
+  * \#unsafeseptember
+  * \#unsafeseptemberAB
+  * \#unsafeseptemberBC
+  * \#unsafeseptemberMB
+  * \#unsafeseptemberNS
+  * \#unsafeseptemberON
+  * \#unsafeseptemberQC
 * **Keywords:**
   * For each pillar, one term must be satisfied. All pillars must be satisfied.
-  1. Elements of COVID: covid(-19), coronavirus, virus, pandemic, (lock)(shut)down, closure(s), (re)open, risk, safe(ty)(ly).
-  2. Elements of School and Childcare: (pre)school(s), class(room)(s),(online)(distance) learning, (day)(child)care
-  3. Elements of Children/Parental Anxiety: child(ren), toddler(s), kid(s), parent(s), mom(s), dad(s), parent(s)
+  1. Elements of COVID:
+     1. covid(-19)
+     2. coronavirus
+     3. virus
+     4. pandemic
+     5. (lock)(shut)down
+     6. closure(s)
+     7. (re)open
+     8. risk
+     9. safe(ty)(ly).
+  2. Elements of School and Childcare:
+     1. (pre)school(s)
+     2. class(room)(s),
+     3. (online)(distance)(remote) learning
+     4. (day)(child)care
+  3. Elements of Children/Parental Anxiety:
+     1. child(ren)
+     2. toddler(s)
+     3. kid(s)
+     4. parent(s)
+     5. mom(s)
+     6. mothers(s)
+     7. dad(s)
+     8. father(s)
+     9. parent(s)
 * **Mentions<sup>1</sup>:**
   * Premiers
     * Jason Kenny, [@jkenney](https://twitter.com/jkenney) (AB)
