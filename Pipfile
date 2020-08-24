@@ -15,6 +15,7 @@ nltk = "*"
 plotly = "*"
 unidecode = "*"
 pipfile = "*"
+wordcloud = "*"
 
 [requires]
 python_version = "3.7"
