@@ -1,4 +1,6 @@
-import ast
+import numpy as np
+import re
+
 
 DTYPE = {
     "id": "str",
@@ -10,9 +12,6 @@ DTYPE = {
     "is_retweet": "bool",
     "favorite_count": "int",
     "retweet_count": "int",
-    "hashtags": "str",
-    "urls": "str",
-    "mentions": "str",
     "city": "str",
     "province": "str",
     "longitude": "float",
@@ -34,3 +33,9 @@ PROVINCES = ["Alberta",
             "Yukon"]
 
 PARSE_DATES = ["created_at"]
+
+parse_list = lambda x : re.sub("[\[\]\']", '', x).split(',') if x else x
+
+CONVERTERS = {"hashtags": parse_list,
+            "urls": parse_list,
+            "mentions": parse_list}
