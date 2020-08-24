@@ -1,6 +1,10 @@
 # secrets
 secrets/
-data/raw_data/
+
+data/processed_data/*
+data/raw_data/*
+!data/raw_data/EXAMPLE-2020-05-20_2020-05-21.json
+!data/processed_data/EXAMPLE-2020-05-20_2020-05-21.csv
 
  Byte-compiled / optimized / DLL files
 __pycache__/
