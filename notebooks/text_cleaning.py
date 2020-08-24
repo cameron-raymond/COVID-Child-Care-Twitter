@@ -47,7 +47,7 @@ def clean_text(text):
             pos_tag = get_wordnet_pos(pos)
             token = lemma.lemmatize(token,pos=pos_tag) if pos_tag else token
             stem_text.append(token)
-    return stem_text
+    return ' '.join(stem_text)
 
        
 if __name__ == "__main__":
