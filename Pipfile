@@ -16,6 +16,7 @@ plotly = "*"
 unidecode = "*"
 pipfile = "*"
 wordcloud = "*"
+tqdm = "*"
 
 [requires]
 python_version = "3.7"
