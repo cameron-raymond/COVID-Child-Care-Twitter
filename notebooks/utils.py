@@ -1,6 +1,6 @@
+import plotly.express.colors as cols
 import numpy as np
 import re
-
 
 DTYPE = {
     "id": "str",
@@ -32,6 +32,8 @@ PROVINCES = ["Alberta",
             "Saskatchewan",
             "Yukon"]
 
+PROVINCE_COLOR_MAP = { a : b for a,b in zip(PROVINCES+["Total"],cols.qualitative.Light24)}          
+
 PARSE_DATES = ["created_at"]
 
 parse_list = lambda x : re.sub("[\[\]\']", '', x).split(',') if x else x
@@ -39,3 +41,10 @@ parse_list = lambda x : re.sub("[\[\]\']", '', x).split(',') if x else x
 CONVERTERS = {"hashtags": parse_list,
             "urls": parse_list,
             "mentions": parse_list}
+
+if __name__ == "__main__":
+    # print(DTYPE)
+    for p in PROVINCES+["Total"]:
+        print(p,": ",PROVINCE_COLOR_MAP[p])
+    # print(CONVERTERS)
+    # print(PARSE_DATES)

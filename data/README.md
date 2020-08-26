@@ -11,4 +11,4 @@ The data directory stores the raw and processed CSVs scraped from Twitter. For m
 
 | id             | created_at      | screen_name       | source            | clean_text              | is_retweet      | favorite_count | retweet_count  | hashtags     | urls         | mentions     | city         | province     | longitude        | latitude         |
 |----------------|-----------------|-------------------|-------------------|-------------------------|-----------------|----------------|----------------|--------------|--------------|--------------|--------------|--------------|------------------|------------------|
-| int (!null) | date (!null) | string (!null) | string (!null) | list[string] (!null) | bool (!null) | int (!null) | int (!null) | list[string] | list[string] | list[string] | list[string] | list[string] | float (!null) | float (!null) |
+| int (!null) | date (!null) | string (!null) | string (!null) | string (!null) | bool (!null) | int (!null) | int (!null) | list[string] | list[string] | list[string] | list[string] | list[string] | float (!null) | float (!null) |
