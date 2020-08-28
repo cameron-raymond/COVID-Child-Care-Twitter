@@ -41,7 +41,7 @@ CONSOLIDATED_PROVINCES = ["Alberta",
             "Atlantic Province",
             "Northern Territory"]
 
-PROVINCE_COLOR_MAP = { a : b for a,b in zip(PROVINCES+["Total","Atlantic Province","Northern Territory"],cols.qualitative.Light24)}   
+PROVINCE_COLOR_MAP = { a : b for a,b in zip(PROVINCES+["Total","Atlantic Province","Northern Territory"],cols.qualitative.Dark24)}   
 
 PROV_CONSOLIDATION = {
     "New Brunswick": "Atlantic Province",
