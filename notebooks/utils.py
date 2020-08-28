@@ -32,7 +32,25 @@ PROVINCES = ["Alberta",
             "Saskatchewan",
             "Yukon"]
 
-PROVINCE_COLOR_MAP = { a : b for a,b in zip(PROVINCES+["Total"],cols.qualitative.Light24)}          
+CONSOLIDATED_PROVINCES = ["Alberta",
+            "British Columbia",
+            "Manitoba",
+            "Ontario",
+            "Quebec",
+            "Saskatchewan",
+            "Atlantic Province",
+            "Northern Territory"]
+
+PROVINCE_COLOR_MAP = { a : b for a,b in zip(PROVINCES+["Total","Atlantic Province","Northern Territory"],cols.qualitative.Light24)}   
+
+PROV_CONSOLIDATION = {
+    "New Brunswick": "Atlantic Province",
+    "Newfoundland and Labrador": "Atlantic Province",
+    "Nova Scotia": "Atlantic Province",
+    "Prince Edward Island": "Atlantic Provinces",
+    "Yukon": "Northern Territory",
+    "Northwest Territories": "Northern Territory",
+    "Nunavut": "Northern Territory"}
 
 PARSE_DATES = ["created_at"]
 

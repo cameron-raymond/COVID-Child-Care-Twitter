@@ -17,6 +17,7 @@ unidecode = "*"
 pipfile = "*"
 wordcloud = "*"
 tqdm = "*"
+kaleido = "*"
 
 [requires]
 python_version = "3.7"
