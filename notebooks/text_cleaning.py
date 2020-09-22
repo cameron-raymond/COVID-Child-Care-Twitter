@@ -36,6 +36,7 @@ def clean_text(text):
 
     text = unidecode.unidecode(text)
     text = re.sub("[+-/]", ' ', text)
+    text = re.sub('#[\w-]+','',text)
     # remove emojis
     text = emoji_pattern.sub(r'', text)
     token_words = word_tokenize(text)

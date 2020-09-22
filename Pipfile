@@ -19,6 +19,7 @@ wordcloud = "*"
 tqdm = "*"
 kaleido = "*"
 folium = "*"
+textblob = "*"
 
 [requires]
 python_version = "3.7"
