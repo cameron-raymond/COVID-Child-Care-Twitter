@@ -1,8 +1,12 @@
-0:preschool,need pack,understanding correctly,pack nation,correctly covid,nation child,correctly,pack,also benign,toddler
-1:work,childcare,daycare,back work,care,child care,school daycare,woman,work parent,work school
-2:distance,online,remote,zoom,online learning,learning,distance learning,learn,remote learning,parent guardian
-3:class size,small class,size,class,reduce class,physical distancing,small,physical,distancing,reduce
-4:reopen,close,closure,school reopen,reopen school,school closure,reopening school,school reopening,school close,reopening
-5:public,public school,private,private school,public health,public education,health,system,kid private,kid public
-6:prison,manafort,paul,paul manafort,deadly,loud fight,test positive,ontarians retweet,union fight,retweet teacher
-7:safe,staff,safe return,student,education worker,worker,ensure,support,return,plan
+0:class size,mask,small class,size,reduce class,physical distancing,class,small,distancing,physical
+1:public,public school,private,private school,public health,public education,health,kid private,system,kid public
+2:childcare,daycare,test positive,child care,positive,test,centre,care,positive covid,care centre
+3:work,back work,work parent,work school,parent work,work child,return work,work home,people back,work together
+4:distance,online,remote,zoom,online learning,distance learning,remote learning,learning,learn,person discuss
+5:back school,reopen,back,open school,go back,school,kid back,school reopen,reopening school,reopen school
+6:close,closure,school closure,close school,school close,parent guardian,guardian,meal,remain,closed
+7:need pack,retweet teacher,ontarians retweet,need loud,right thank,understanding correctly,pack nation,correctly covid,fight right,fight make
+8:jason,jason kenney,kenney,put,deadly pandemic,gun,wealthy corporation,gun classroom,child gun,billion give
+9:fordnation,sflecce,ford,plan,fordnation sflecce,~covid,doug,staff,~child,sflecce fordnation
+10:high,risk,mental,high risk,virus,mental health,kid,spread,classroom,adult
+11:open,home,school open,stay,like,year,feel,stay home,look like,look
