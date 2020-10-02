@@ -2,6 +2,19 @@ import plotly.express.colors as cols
 import numpy as np
 import re
 
+
+ANCHORS = [["mask", "class size","small class","reduce class","physical distancing", "ppe"],
+           ["public school","private school","public","private","resources","resource gap"],
+           ["childcare","daycare", "toddler"],
+           ["remote work", "zoom meeting","essential work", "essential workers","work","wfh"],
+           ["online","remote","distance","online learning","remote learning","distance learning", "zoom"],
+           ["reopen","reopening school","school reopening","open schools", "open school","back school", "go back"],
+           ["close","closure","close school","close schools"]]
+
+ANCHOR_NAMES = ["Health Measures","Public/Private Schools","Childcare","Remote Work","Remote Learning","School Reopenings","School Closures"]
+
+LABELS = {c:p for c,p in zip(range(len(ANCHORS)),ANCHOR_NAMES)}  
+
 DTYPE = {
     "id": "str",
     "created_at": "str",
@@ -16,6 +29,8 @@ DTYPE = {
     "province": "str",
     "longitude": "float",
     "latitude": "float",
+    "cluster": "int",
+    "cluster_name": "str"
 }
 
 PROVINCES = ["Alberta",
