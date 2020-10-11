@@ -2,5 +2,7 @@
     "cSpell.words": [
         "CSVs"
     ],
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "python.pythonPath": "/Users/cameron/.local/share/virtualenvs/COVID-Child-Care-Twitter-OW82RhPk/bin/python",
+    
 }

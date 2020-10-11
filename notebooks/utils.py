@@ -2,7 +2,6 @@ import plotly.express.colors as cols
 import numpy as np
 import re
 
-
 ANCHORS = [["mask", "class size","small class","reduce class","physical distancing", "ppe"],
            ["public school","private school","public","private","resources","resource gap"],
            ["childcare","daycare", "toddler"],
