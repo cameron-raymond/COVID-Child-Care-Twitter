@@ -24,6 +24,7 @@ pyarrow = "*"
 scikit-learn = "*"
 corextopic = "*"
 networkx = "*"
+gensim = "*"
 
 [requires]
 python_version = "3.7"
