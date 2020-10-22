@@ -25,6 +25,7 @@ scikit-learn = "*"
 corextopic = "*"
 networkx = "*"
 gensim = "*"
+openpyxl = "*"
 
 [requires]
 python_version = "3.7"
