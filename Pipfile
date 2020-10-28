@@ -28,6 +28,7 @@ gensim = "*"
 openpyxl = "*"
 vadersentiment = "*"
 ipykernel = "*"
+statsmodels = "*"
 
 [requires]
 python_version = "3.7"
