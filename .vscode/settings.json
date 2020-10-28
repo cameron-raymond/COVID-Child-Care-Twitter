@@ -3,6 +3,7 @@
         "CSVs"
     ],
     "python.formatting.provider": "black",
-    "python.pythonPath": "/Users/cameron/.local/share/virtualenvs/COVID-Child-Care-Twitter-OW82RhPk/bin/python",
-    
+    // "python.pythonPath": "/Users/cameron/.local/share/virtualenvs/COVID-Child-Care-Twitter-OW82RhPk/bin/python",
+    "python.venvPath": "COVID-Child-Care-Twitter/.venv/bin/python",
+    "python.pythonPath": ".venv/bin/python",
 }

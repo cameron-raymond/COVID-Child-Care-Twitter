@@ -26,6 +26,8 @@ corextopic = "*"
 networkx = "*"
 gensim = "*"
 openpyxl = "*"
+vadersentiment = "*"
+ipykernel = "*"
 
 [requires]
 python_version = "3.7"
