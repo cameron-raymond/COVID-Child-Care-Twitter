@@ -26,6 +26,8 @@ vadersentiment = "*"
 ipykernel = "*"
 lab = "*"
 statsmodels = "*"
+requests = "*"
+seaborn = "*"
 
 [requires]
 python_version = "3.9"
